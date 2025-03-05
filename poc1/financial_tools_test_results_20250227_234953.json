@@ -1,0 +1,139 @@
+{
+  "timestamp": "2025-02-27T23:49:53.269156",
+  "database_path": "data/financial.db",
+  "categories": {
+    "cash_flow": [
+      {
+        "name": "Basic cash flow",
+        "params": {},
+        "success": false,
+        "message": "Function returned error: Using demo mode - no real database connection"
+      },
+      {
+        "name": "Cash flow with date range",
+        "params": {
+          "start_date": "2020-01-01",
+          "end_date": "2020-12-31"
+        },
+        "success": false,
+        "message": "Function returned error: Using demo mode - no real database connection"
+      },
+      {
+        "name": "Cash flow for Q4",
+        "params": {
+          "start_date": "2020-10-01",
+          "end_date": "2020-12-31"
+        },
+        "success": false,
+        "message": "Function returned error: Using demo mode - no real database connection"
+      },
+      {
+        "name": "Cash flow with start date only",
+        "params": {
+          "start_date": "2020-06-01"
+        },
+        "success": false,
+        "message": "Function returned error: Using demo mode - no real database connection"
+      }
+    ],
+    "ar_aging": [
+      {
+        "name": "Basic AR aging",
+        "params": {},
+        "success": false,
+        "message": "Function returned error: Using demo mode - no real database connection"
+      }
+    ],
+    "revenue_forecast": [
+      {
+        "name": "Default forecast",
+        "params": {},
+        "success": false,
+        "message": "Function returned error: Using demo mode - no real database connection"
+      },
+      {
+        "name": "30 day forecast",
+        "params": {
+          "days_ahead": 30
+        },
+        "success": false,
+        "message": "Function returned error: Using demo mode - no real database connection"
+      },
+      {
+        "name": "90 day forecast",
+        "params": {
+          "days_ahead": 90
+        },
+        "success": false,
+        "message": "Function returned error: Using demo mode - no real database connection"
+      }
+    ],
+    "profitability": [
+      {
+        "name": "Overall profitability",
+        "params": {},
+        "success": false,
+        "message": "Function returned error: Using demo mode - no real database connection"
+      },
+      {
+        "name": "Profitability by business unit",
+        "params": {
+          "dimension": "Business Unit Key"
+        },
+        "success": false,
+        "message": "Function returned error: Using demo mode - no real database connection"
+      },
+      {
+        "name": "Profitability by company code",
+        "params": {
+          "dimension": "Company Code"
+        },
+        "success": false,
+        "message": "Function returned error: Using demo mode - no real database connection"
+      }
+    ],
+    "customer": [
+      {
+        "name": "Top 10 customers",
+        "params": {
+          "top_n": 10
+        },
+        "success": false,
+        "message": "Function returned error: Using demo mode - no real database connection"
+      },
+      {
+        "name": "Top 20 customers",
+        "params": {
+          "top_n": 20
+        },
+        "success": false,
+        "message": "Function returned error: Using demo mode - no real database connection"
+      }
+    ],
+    "sql_queries": [
+      {
+        "name": "High-value transactions",
+        "success": false,
+        "message": "Error running query High-value transactions: 'NoneType' object has no attribute 'cursor'"
+      },
+      {
+        "name": "Monthly revenue",
+        "success": false,
+        "message": "Error running query Monthly revenue: 'NoneType' object has no attribute 'cursor'"
+      },
+      {
+        "name": "Top customers by revenue",
+        "success": false,
+        "message": "Error running query Top customers by revenue: 'NoneType' object has no attribute 'cursor'"
+      },
+      {
+        "name": "Revenue by business unit",
+        "success": false,
+        "message": "Error running query Revenue by business unit: 'NoneType' object has no attribute 'cursor'"
+      }
+    ]
+  },
+  "success_rate": 0.0,
+  "passed": 0,
+  "total": 17
+}

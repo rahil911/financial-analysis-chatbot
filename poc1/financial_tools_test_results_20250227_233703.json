@@ -1,0 +1,31 @@
+{
+  "success_rate": 0.0,
+  "successful_tests": 0,
+  "total_tests": 6,
+  "results": {
+    "cash_flow_analysis": {
+      "success": false,
+      "message": "Using demo mode - no real database connection"
+    },
+    "ar_aging_analysis": {
+      "success": false,
+      "message": "Using demo mode - no real database connection"
+    },
+    "revenue_forecast": {
+      "success": false,
+      "message": "Using demo mode - no real database connection"
+    },
+    "profitability_analysis": {
+      "success": false,
+      "message": "Using demo mode - no real database connection"
+    },
+    "customer_analysis": {
+      "success": false,
+      "message": "Using demo mode - no real database connection"
+    },
+    "query_database": {
+      "success": false,
+      "message": "'NoneType' object has no attribute 'cursor'"
+    }
+  }
+}

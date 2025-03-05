@@ -1,0 +1,31 @@
+{
+  "success_rate": 50.0,
+  "successful_tests": 3,
+  "total_tests": 6,
+  "results": {
+    "cash_flow_analysis": {
+      "success": true,
+      "message": "Cash flow analysis successful"
+    },
+    "ar_aging_analysis": {
+      "success": false,
+      "message": "Missing metrics: aging_buckets"
+    },
+    "revenue_forecast": {
+      "success": false,
+      "message": "Missing forecast values or dates"
+    },
+    "profitability_analysis": {
+      "success": true,
+      "message": "Profitability analysis successful"
+    },
+    "customer_analysis": {
+      "success": false,
+      "message": "Grouper for 'Customer Key' not 1-dimensional"
+    },
+    "query_database": {
+      "success": true,
+      "message": "Custom SQL query successful"
+    }
+  }
+}

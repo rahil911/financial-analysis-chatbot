@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Financial Analysis Report</title>
+    <style>
+        :root {
+            --primary-color: #2c3e50;
+            --secondary-color: #34495e;
+            --accent-color: #3498db;
+            --warning-color: #e74c3c;
+            --success-color: #2ecc71;
+            --text-color: #2c3e50;
+            --light-bg: #f5f6fa;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: var(--text-color);
+            background-color: var(--light-bg);
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        header {
+            background-color: var(--primary-color);
+            color: white;
+            padding: 2rem 0;
+            margin-bottom: 2rem;
+        }
+
+        .header-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 2rem;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+
+        h2 {
+            color: var(--primary-color);
+            margin: 2rem 0 1rem;
+            padding-bottom: 0.5rem;
+            border-bottom: 2px solid var(--accent-color);
+        }
+
+        h3 {
+            color: var(--secondary-color);
+            margin: 1.5rem 0 1rem;
+        }
+
+        .card {
+            background: white;
+            border-radius: 8px;
+            padding: 1.5rem;
+            margin-bottom: 1.5rem;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        .metric {
+            display: inline-block;
+            padding: 1rem;
+            margin: 0.5rem;
+            border-radius: 8px;
+            background: var(--light-bg);
+            min-width: 200px;
+        }
+
+        .metric-label {
+            font-size: 0.9rem;
+            color: var(--secondary-color);
+        }
+
+        .metric-value {
+            font-size: 1.5rem;
+            font-weight: bold;
+            margin-top: 0.5rem;
+        }
+
+        .negative {
+            color: var(--warning-color);
+        }
+
+        .positive {
+            color: var(--success-color);
+        }
+
+        .warning {
+            background-color: #fff3cd;
+            border-left: 4px solid #ffc107;
+            padding: 1rem;
+            margin: 1rem 0;
+        }
+
+        .action-item {
+            display: flex;
+            align-items: center;
+            margin: 0.5rem 0;
+        }
+
+        .priority-high {
+            color: var(--warning-color);
+            font-weight: bold;
+        }
+
+        .priority-medium {
+            color: #f39c12;
+        }
+
+        .chart-container {
+            margin: 2rem 0;
+            padding: 1rem;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 1rem 0;
+        }
+
+        th, td {
+            padding: 0.75rem;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+
+        th {
+            background-color: var(--light-bg);
+            color: var(--primary-color);
+        }
+
+        .recommendations {
+            background: white;
+            border-radius: 8px;
+            padding: 1.5rem;
+            margin-top: 2rem;
+        }
+
+        .recommendation-item {
+            margin: 1rem 0;
+            padding-left: 1rem;
+            border-left: 3px solid var(--accent-color);
+        }
+
+        .iframe-container {
+            width: 100%;
+            height: 500px;
+            margin: 1rem 0;
+        }
+
+        iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <h1>Financial Analysis Report</h1>
+            <p>Comprehensive analysis of financial performance, risks, and recommendations</p>
+        </div>
+    </header>
+
+    <div class="container">
+        <!-- Executive Summary -->
+        <section id="executive-summary">
+            <h2>Executive Summary</h2>
+            <div class="card">
+                <div class="warning">
+                    <strong>Critical Alert:</strong> The company is experiencing significant losses across all regions with systemic profitability issues.
+                </div>
+                <div class="metric">
+                    <div class="metric-label">Total Net Loss</div>
+                    <div class="metric-value negative">$338.2M</div>
+                </div>
+                <div class="metric">
+                    <div class="metric-label">Overdue AR</div>
+                    <div class="metric-value negative">$9.76M</div>
+                </div>
+                <div class="metric">
+                    <div class="metric-label">Late Payment Rate</div>
+                    <div class="metric-value negative">76.1%</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Regional Performance -->
+        <section id="regional-performance">
+            <h2>Regional Performance</h2>
+            <div class="card">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Region</th>
+                            <th>Revenue</th>
+                            <th>Expenses</th>
+                            <th>Net Profit/Loss</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>US</td>
+                            <td>$1,017.9M</td>
+                            <td>$1,246.7M</td>
+                            <td class="negative">-$228.8M</td>
+                        </tr>
+                        <tr>
+                            <td>Canada</td>
+                            <td>$216.1M</td>
+                            <td>$272.1M</td>
+                            <td class="negative">-$55.9M</td>
+                        </tr>
+                        <tr>
+                            <td>Mexico</td>
+                            <td>$236.8M</td>
+                            <td>$290.3M</td>
+                            <td class="negative">-$53.5M</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <!-- Accounts Receivable Analysis -->
+        <section id="ar-analysis">
+            <h2>Accounts Receivable Analysis</h2>
+            <div class="card">
+                <h3>AR Aging Overview</h3>
+                <div class="iframe-container">
+                    <iframe src="ar_aging_analysis.html"></iframe>
+                </div>
+                <h3>Payment Behavior Analysis</h3>
+                <div class="iframe-container">
+                    <iframe src="payment_behavior_analysis.html"></iframe>
+                </div>
+                <h3>Key AR Metrics</h3>
+                <div class="metric">
+                    <div class="metric-label">Severely Overdue (>90 days)</div>
+                    <div class="metric-value negative">$5.29M</div>
+                </div>
+                <div class="metric">
+                    <div class="metric-label">Average Days to Pay</div>
+                    <div class="metric-value">24.3 days</div>
+                </div>
+                <div class="metric">
+                    <div class="metric-label">Average Days Late</div>
+                    <div class="metric-value negative">15.1 days</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Revenue Forecast -->
+        <section id="revenue-forecast">
+            <h2>Revenue Forecast Analysis</h2>
+            <div class="card">
+                <div class="iframe-container">
+                    <iframe src="revenue_forecast.html"></iframe>
+                </div>
+                <div class="warning">
+                    <strong>Forecast Reliability Issue:</strong> High MAPE (130,832%) indicates significant uncertainty in predictions.
+                </div>
+                <h3>Key Forecast Drivers</h3>
+                <ul>
+                    <li>Year (89% importance in XGBoost model)</li>
+                    <li>Month (24.3% importance in Random Forest model)</li>
+                    <li>Seasonal patterns identified in monthly data</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Priority Actions -->
+        <section id="priority-actions">
+            <h2>Priority Actions</h2>
+            <div class="card">
+                <h3>Immediate Financial Health [HIGH]</h3>
+                <div class="recommendation-item">
+                    <p class="priority-high">1. Cash Flow Optimization</p>
+                    <ul>
+                        <li>Implement aggressive collection for $5.29M severely overdue accounts</li>
+                        <li>Review credit terms for high-risk customers</li>
+                        <li>Consider early payment incentives</li>
+                    </ul>
+                </div>
+                <div class="recommendation-item">
+                    <p class="priority-high">2. Cost Control</p>
+                    <ul>
+                        <li>Review loss-making business units</li>
+                        <li>Optimize operational costs across regions</li>
+                        <li>Implement enhanced cost tracking</li>
+                    </ul>
+                </div>
+                <div class="recommendation-item">
+                    <p class="priority-high">3. Revenue Enhancement</p>
+                    <ul>
+                        <li>Analyze profitable departments (e.g., Dept 13: $4.7M profit)</li>
+                        <li>Review pricing strategies</li>
+                        <li>Focus on successful product lines</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Value Opportunities -->
+        <section id="value-opportunities">
+            <h2>Value Opportunities</h2>
+            <div class="card">
+                <div class="recommendation-item">
+                    <h3>Financial Impact</h3>
+                    <ul>
+                        <li>Working capital release: $5.29M from severely overdue AR</li>
+                        <li>Cost reduction in loss-making units</li>
+                        <li>Revenue optimization in profitable departments</li>
+                        <li>Process efficiency gains</li>
+                    </ul>
+                </div>
+                <div class="recommendation-item">
+                    <h3>Customer Value</h3>
+                    <ul>
+                        <li>Improved customer segmentation</li>
+                        <li>Enhanced payment behavior</li>
+                        <li>Reduced credit risk</li>
+                        <li>Better service levels</li>
+                    </ul>
+                </div>
+                <div class="recommendation-item">
+                    <h3>Risk Mitigation</h3>
+                    <ul>
+                        <li>Reduced bad debt exposure</li>
+                        <li>Better credit management</li>
+                        <li>Improved cash flow predictability</li>
+                        <li>Enhanced decision support</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Cash Flow Analysis -->
+        <section id="cash-flow">
+            <h2>Cash Flow Analysis</h2>
+            <div class="card">
+                <div class="iframe-container">
+                    <iframe src="cash_flow_analysis.html"></iframe>
+                </div>
+            </div>
+        </section>
+
+        <!-- Profitability Analysis -->
+        <section id="profitability">
+            <h2>Profitability Analysis</h2>
+            <div class="card">
+                <div class="iframe-container">
+                    <iframe src="profitability_analysis.html"></iframe>
+                </div>
+                <h3>Department Performance Highlights</h3>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Department</th>
+                            <th>Profit/Loss</th>
+                            <th>Performance</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Dept 13</td>
+                            <td class="positive">$4.7M</td>
+                            <td>Best performing small department</td>
+                        </tr>
+                        <tr>
+                            <td>Dept 22</td>
+                            <td class="positive">$5.5M</td>
+                            <td>Highest profit margin</td>
+                        </tr>
+                        <tr>
+                            <td>Dept 23</td>
+                            <td class="negative">-$46.4M</td>
+                            <td>Largest loss contributor</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+    </div>
+</body>
+</html> 

@@ -1,0 +1,31 @@
+{
+  "success_rate": 83.33333333333334,
+  "successful_tests": 5,
+  "total_tests": 6,
+  "results": {
+    "cash_flow_analysis": {
+      "success": true,
+      "message": "Cash flow analysis successful"
+    },
+    "ar_aging_analysis": {
+      "success": true,
+      "message": "AR aging analysis successful"
+    },
+    "revenue_forecast": {
+      "success": true,
+      "message": "Revenue forecast successful"
+    },
+    "profitability_analysis": {
+      "success": true,
+      "message": "Profitability analysis successful"
+    },
+    "customer_analysis": {
+      "success": false,
+      "message": "Error in customer analysis: 'invoice_count'"
+    },
+    "query_database": {
+      "success": true,
+      "message": "Custom SQL query successful"
+    }
+  }
+}

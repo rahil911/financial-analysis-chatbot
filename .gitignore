@@ -1,0 +1,70 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+ENV/
+
+# Logs
+*.log
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+*.db-journal
+
+# Large data files
+poc1/data/financial.db
+DB/dbo_*.csv
+
+# OS specific files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# API Keys and environment variables
+.env
+temp_api_key.sh
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Generated reports (optional - can include if you want to share example reports)
+# poc1/data/reports/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Cache
+.cache/
+.pytest_cache/
+
+# IDE files
+.idea/
+.vscode/
+*.swp
+*.swo 

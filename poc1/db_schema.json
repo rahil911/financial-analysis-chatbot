@@ -1,0 +1,1106 @@
+{
+  "dbo_F_GL_Transaction_Detail": [
+    {
+      "name": "GL Agg Detail Key",
+      "type": "INTEGER"
+    },
+    {
+      "name": "Business Unit Key",
+      "type": "INTEGER"
+    },
+    {
+      "name": "Company Key",
+      "type": "INTEGER"
+    },
+    {
+      "name": "Company Code",
+      "type": "TEXT"
+    },
+    {
+      "name": "Cost Center Key",
+      "type": "INTEGER"
+    },
+    {
+      "name": "Customer Key",
+      "type": "INTEGER"
+    },
+    {
+      "name": "Department Key",
+      "type": "INTEGER"
+    },
+    {
+      "name": "Dimension 01 Key",
+      "type": "INTEGER"
+    },
+    {
+      "name": "Dimension 02 Key",
+      "type": "INTEGER"
+    },
+    {
+      "name": "Dimension 03 Key",
+      "type": "INTEGER"
+    },
+    {
+      "name": "Dimension 04 Key",
+      "type": "INTEGER"
+    },
+    {
+      "name": "Dimension 05 Key",
+      "type": "INTEGER"
+    },
+    {
+      "name": "Dimension 06 Key",
+      "type": "INTEGER"
+    },
+    {
+      "name": "Dimension 07 Key",
+      "type": "INTEGER"
+    },
+    {
+      "name": "Dimension 08 Key",
+      "type": "INTEGER"
+    },
+    {
+      "name": "Dimension 09 Key",
+      "type": "INTEGER"
+    },
+    {
+      "name": "Dimension 10 Key",
+      "type": "INTEGER"
+    },
+    {
+      "name": "Division Key",
+      "type": "INTEGER"
+    },
+    {
+      "name": "Facility Key",
+      "type": "INTEGER"
+    },
+    {
+      "name": "Financial Dimension Key",
+      "type": "INTEGER"
+    },
+    {
+      "name": "Financial Dimension Code",
+      "type": "TEXT"
+    },
+    {
+      "name": "FS Group Number",
+      "type": "INTEGER"
+    },
+    {
+      "name": "FS Line Number",
+      "type": "INTEGER"
+    },
+    {
+      "name": "GL Account Key",
+      "type": "INTEGER"
+    },
+    {
+      "name": "Item Key",
+      "type": "INTEGER"
+    },
+    {
+      "name": "Item Category Hrchy Key",
+      "type": "INTEGER"
+    },
+    {
+      "name": "Posting Date Key",
+      "type": "INTEGER"
+    },
+    {
+      "name": "Posting Date",
+      "type": "TEXT"
+    },
+    {
+      "name": "Sales Organization Key",
+      "type": "INTEGER"
+    },
+    {
+      "name": "Vendor Key",
+      "type": "INTEGER"
+    },
+    {
+      "name": "Txn Quantity",
+      "type": "REAL"
+    },
+    {
+      "name": "Txn Amount",
+      "type": "REAL"
+    },
+    {
+      "name": "Debit Amount",
+      "type": "REAL"
+    },
+    {
+      "name": "Credit Amount",
+      "type": "REAL"
+    },
+    {
+      "name": "Report Amount",
+      "type": "REAL"
+    },
+    {
+      "name": "Sign Flip Flag",
+      "type": "INTEGER"
+    },
+    {
+      "name": "Expense Flag",
+      "type": "INTEGER"
+    },
+    {
+      "name": "Deleted Flag",
+      "type": "INTEGER"
+    },
+    {
+      "name": "Analytics Log Key",
+      "type": "INTEGER"
+    }
+  ],
+  "dbo_F_AR_Header": [
+    {
+      "name": "AR Header Key",
+      "type": "INTEGER"
+    },
+    {
+      "name": "Company Code",
+      "type": "TEXT"
+    },
+    {
+      "name": "Source Code",
+      "type": "TEXT"
+    },
+    {
+      "name": "Record Type",
+      "type": "INTEGER"
+    },
+    {
+      "name": "AR Header Id",
+      "type": "INTEGER"
+    },
+    {
+      "name": "Business Unit Key",
+      "type": "INTEGER"
+    },
+    {
+      "name": "Company Key",
+      "type": "INTEGER"
+    },
+    {
+      "name": "Currency Key",
+      "type": "INTEGER"
+    },
+    {
+      "name": "Customer Key",
+      "type": "INTEGER"
+    },
+    {
+      "name": "Customer Category Hrchy Key",
+      "type": "INTEGER"
+    },
+    {
+      "name": "Customer Geography Hrchy Key",
+      "type": "INTEGER"
+    },
+    {
+      "name": "Division Key",
+      "type": "INTEGER"
+    },
+    {
+      "name": "Facility Key",
+      "type": "INTEGER"
+    },
+    {
+      "name": "Posting Date Key",
+      "type": "INTEGER"
+    },
+    {
+      "name": "Sales Organization Key",
+      "type": "INTEGER"
+    },
+    {
+      "name": "Txn Date Key",
+      "type": "INTEGER"
+    },
+    {
+      "name": "Txn Sales Organization Key",
+      "type": "INTEGER"
+    },
+    {
+      "name": "Txn Date",
+      "type": "TEXT"
+    },
+    {
+      "name": "Posting Date",
+      "type": "TEXT"
+    },
+    {
+      "name": "Currency Code",
+      "type": "TEXT"
+    },
+    {
+      "name": "Division Code",
+      "type": "REAL"
+    },
+    {
+      "name": "Business Unit Code",
+      "type": "TEXT"
+    },
+    {
+      "name": "Facility Code",
+      "type": "REAL"
+    },
+    {
+      "name": "Dimension Set Id",
+      "type": "INTEGER"
+    },
+    {
+      "name": "Customer Number",
+      "type": "INTEGER"
+    },
+    {
+      "name": "Txn Salesperson Code",
+      "type": "INTEGER"
+    },
+    {
+      "name": "Customer Posting Group",
+      "type": "REAL"
+    },
+    {
+      "name": "Document Source",
+      "type": "TEXT"
+    },
+    {
+      "name": "Document Type",
+      "type": "TEXT"
+    },
+    {
+      "name": "Document Number",
+      "type": "TEXT"
+    },
+    {
+      "name": "Customer Document Number",
+      "type": "REAL"
+    },
+    {
+      "name": "Payment Terms Code",
+      "type": "TEXT"
+    },
+    {
+      "name": "Payment Terms",
+      "type": "TEXT"
+    },
+    {
+      "name": "Payment Terms Group",
+      "type": "TEXT"
+    },
+    {
+      "name": "Due Date",
+      "type": "TEXT"
+    },
+    {
+      "name": "Open Flag",
+      "type": "INTEGER"
+    },
+    {
+      "name": "Invoice Amount",
+      "type": "REAL"
+    },
+    {
+      "name": "Invoice Amount (TCY)",
+      "type": "REAL"
+    },
+    {
+      "name": "Payment Amount",
+      "type": "REAL"
+    },
+    {
+      "name": "Payment Amount (TCY)",
+      "type": "REAL"
+    },
+    {
+      "name": "Balance Due Amount",
+      "type": "REAL"
+    },
+    {
+      "name": "Balance Due Amount (TCY)",
+      "type": "REAL"
+    },
+    {
+      "name": "Paid To-date Amount",
+      "type": "REAL"
+    },
+    {
+      "name": "Paid To-date Amount (TCY)",
+      "type": "REAL"
+    },
+    {
+      "name": "Late To-date Amount",
+      "type": "REAL"
+    },
+    {
+      "name": "Late To-date Amount (TCY)",
+      "type": "REAL"
+    },
+    {
+      "name": "Number Invoices",
+      "type": "INTEGER"
+    },
+    {
+      "name": "Number Invoices Paid",
+      "type": "INTEGER"
+    },
+    {
+      "name": "Number Invoices Paid Late",
+      "type": "INTEGER"
+    },
+    {
+      "name": "Number Payments",
+      "type": "INTEGER"
+    },
+    {
+      "name": "Number Payments Late",
+      "type": "INTEGER"
+    },
+    {
+      "name": "Number Days Late",
+      "type": "INTEGER"
+    },
+    {
+      "name": "Weighted Number Days Late",
+      "type": "INTEGER"
+    },
+    {
+      "name": "Days to Pay",
+      "type": "INTEGER"
+    },
+    {
+      "name": "Weighted Days to Pay",
+      "type": "INTEGER"
+    },
+    {
+      "name": "First Pay Date",
+      "type": "TEXT"
+    },
+    {
+      "name": "Last Pay Date",
+      "type": "TEXT"
+    },
+    {
+      "name": "Age Band Days",
+      "type": "REAL"
+    },
+    {
+      "name": "Age Band",
+      "type": "TEXT"
+    },
+    {
+      "name": "Age Band Sort",
+      "type": "REAL"
+    },
+    {
+      "name": "Fact Update Pending Flag",
+      "type": "INTEGER"
+    },
+    {
+      "name": "Deleted Flag",
+      "type": "INTEGER"
+    },
+    {
+      "name": "Source Log Key",
+      "type": "INTEGER"
+    },
+    {
+      "name": "Analytics Log Key",
+      "type": "INTEGER"
+    },
+    {
+      "name": "Dimension 01 Key",
+      "type": "INTEGER"
+    },
+    {
+      "name": "Dimension 02 Key",
+      "type": "INTEGER"
+    },
+    {
+      "name": "Dimension 03 Key",
+      "type": "INTEGER"
+    },
+    {
+      "name": "Dimension 04 Key",
+      "type": "INTEGER"
+    },
+    {
+      "name": "Dimension 05 Key",
+      "type": "INTEGER"
+    },
+    {
+      "name": "Dimension 06 Key",
+      "type": "INTEGER"
+    },
+    {
+      "name": "Dimension 07 Key",
+      "type": "INTEGER"
+    },
+    {
+      "name": "Dimension 08 Key",
+      "type": "INTEGER"
+    },
+    {
+      "name": "Dimension 09 Key",
+      "type": "INTEGER"
+    },
+    {
+      "name": "Dimension 10 Key",
+      "type": "INTEGER"
+    }
+  ],
+  "dbo_F_AR_Detail": [
+    {
+      "name": "AR Detail Key",
+      "type": "INTEGER"
+    },
+    {
+      "name": "Company Code",
+      "type": "TEXT"
+    },
+    {
+      "name": "Source Code",
+      "type": "TEXT"
+    },
+    {
+      "name": "Record Type",
+      "type": "INTEGER"
+    },
+    {
+      "name": "AR Detail Id",
+      "type": "INTEGER"
+    },
+    {
+      "name": "AR Header Key",
+      "type": "INTEGER"
+    },
+    {
+      "name": "Business Unit Key",
+      "type": "INTEGER"
+    },
+    {
+      "name": "Company Key",
+      "type": "INTEGER"
+    },
+    {
+      "name": "Currency Key",
+      "type": "INTEGER"
+    },
+    {
+      "name": "Customer Key",
+      "type": "INTEGER"
+    },
+    {
+      "name": "Customer Category Hrchy Key",
+      "type": "INTEGER"
+    },
+    {
+      "name": "Customer Geography Hrchy Key",
+      "type": "INTEGER"
+    },
+    {
+      "name": "Division Key",
+      "type": "INTEGER"
+    },
+    {
+      "name": "Facility Key",
+      "type": "INTEGER"
+    },
+    {
+      "name": "Posting Date Key",
+      "type": "INTEGER"
+    },
+    {
+      "name": "Sales Organization Key",
+      "type": "INTEGER"
+    },
+    {
+      "name": "Txn Date Key",
+      "type": "INTEGER"
+    },
+    {
+      "name": "Txn Sales Organization Key",
+      "type": "INTEGER"
+    },
+    {
+      "name": "AR Header Id",
+      "type": "INTEGER"
+    },
+    {
+      "name": "Txn Date",
+      "type": "TEXT"
+    },
+    {
+      "name": "Posting Date",
+      "type": "TEXT"
+    },
+    {
+      "name": "Document Source",
+      "type": "TEXT"
+    },
+    {
+      "name": "Document Type",
+      "type": "TEXT"
+    },
+    {
+      "name": "Document Number",
+      "type": "TEXT"
+    },
+    {
+      "name": "Transaction Type",
+      "type": "TEXT"
+    },
+    {
+      "name": "Txn Amount",
+      "type": "REAL"
+    },
+    {
+      "name": "Txn Amount (TCY)",
+      "type": "REAL"
+    },
+    {
+      "name": "Debit Amount",
+      "type": "REAL"
+    },
+    {
+      "name": "Credit Amount",
+      "type": "REAL"
+    },
+    {
+      "name": "Age Band Days",
+      "type": "INTEGER"
+    },
+    {
+      "name": "Age Band",
+      "type": "TEXT"
+    },
+    {
+      "name": "Age Band Sort",
+      "type": "INTEGER"
+    },
+    {
+      "name": "Deleted Flag",
+      "type": "INTEGER"
+    },
+    {
+      "name": "Source Log Key",
+      "type": "INTEGER"
+    },
+    {
+      "name": "Analytics Log Key",
+      "type": "INTEGER"
+    },
+    {
+      "name": "Dimension 01 Key",
+      "type": "INTEGER"
+    },
+    {
+      "name": "Dimension 02 Key",
+      "type": "INTEGER"
+    },
+    {
+      "name": "Dimension 03 Key",
+      "type": "INTEGER"
+    },
+    {
+      "name": "Dimension 04 Key",
+      "type": "INTEGER"
+    },
+    {
+      "name": "Dimension 05 Key",
+      "type": "INTEGER"
+    },
+    {
+      "name": "Dimension 06 Key",
+      "type": "INTEGER"
+    },
+    {
+      "name": "Dimension 07 Key",
+      "type": "INTEGER"
+    },
+    {
+      "name": "Dimension 08 Key",
+      "type": "INTEGER"
+    },
+    {
+      "name": "Dimension 09 Key",
+      "type": "INTEGER"
+    },
+    {
+      "name": "Dimension 10 Key",
+      "type": "INTEGER"
+    }
+  ],
+  "dbo_D_Customer": [
+    {
+      "name": "Customer Key",
+      "type": "INTEGER"
+    },
+    {
+      "name": "Company Code",
+      "type": "TEXT"
+    },
+    {
+      "name": "Source Code",
+      "type": "TEXT"
+    },
+    {
+      "name": "Customer Number",
+      "type": "REAL"
+    },
+    {
+      "name": "Bill-to Customer Key",
+      "type": "INTEGER"
+    },
+    {
+      "name": "Customer Category Hrchy Key",
+      "type": "INTEGER"
+    },
+    {
+      "name": "Customer Geography Hrchy Key",
+      "type": "INTEGER"
+    },
+    {
+      "name": "Default Customer Ship-to Key",
+      "type": "INTEGER"
+    },
+    {
+      "name": "Sales Organization Key",
+      "type": "INTEGER"
+    },
+    {
+      "name": "Customer Name",
+      "type": "TEXT"
+    },
+    {
+      "name": "Customer Status",
+      "type": "REAL"
+    },
+    {
+      "name": "Origin Date",
+      "type": "REAL"
+    },
+    {
+      "name": "Customer Address 1",
+      "type": "TEXT"
+    },
+    {
+      "name": "Customer Address 2",
+      "type": "REAL"
+    },
+    {
+      "name": "Customer Address 3",
+      "type": "REAL"
+    },
+    {
+      "name": "Customer City",
+      "type": "TEXT"
+    },
+    {
+      "name": "Customer State/Prov Code",
+      "type": "TEXT"
+    },
+    {
+      "name": "Customer State/Prov",
+      "type": "TEXT"
+    },
+    {
+      "name": "Customer Postal Code",
+      "type": "TEXT"
+    },
+    {
+      "name": "Customer Country Code",
+      "type": "TEXT"
+    },
+    {
+      "name": "Customer Country",
+      "type": "TEXT"
+    },
+    {
+      "name": "Bill-to Customer Number",
+      "type": "REAL"
+    },
+    {
+      "name": "Customer Type Code",
+      "type": "TEXT"
+    },
+    {
+      "name": "Customer Type Desc",
+      "type": "TEXT"
+    },
+    {
+      "name": "Customer Category Hrchy Code",
+      "type": "REAL"
+    },
+    {
+      "name": "Customer Geography Hrchy Code",
+      "type": "TEXT"
+    },
+    {
+      "name": "Market Code",
+      "type": "REAL"
+    },
+    {
+      "name": "Market Desc",
+      "type": "TEXT"
+    },
+    {
+      "name": "Industry Code",
+      "type": "REAL"
+    },
+    {
+      "name": "Industry Desc",
+      "type": "REAL"
+    },
+    {
+      "name": "Salesperson Code",
+      "type": "REAL"
+    },
+    {
+      "name": "Salesperson Name",
+      "type": "TEXT"
+    },
+    {
+      "name": "Responsibility Code",
+      "type": "REAL"
+    },
+    {
+      "name": "Responsibility Name",
+      "type": "REAL"
+    },
+    {
+      "name": "Sales Territory Code",
+      "type": "REAL"
+    },
+    {
+      "name": "Sales Territory",
+      "type": "REAL"
+    },
+    {
+      "name": "Payment Terms Code",
+      "type": "REAL"
+    },
+    {
+      "name": "Payment Terms",
+      "type": "REAL"
+    },
+    {
+      "name": "Payment Terms Group",
+      "type": "REAL"
+    },
+    {
+      "name": "Price Group Code",
+      "type": "REAL"
+    },
+    {
+      "name": "Price Group",
+      "type": "REAL"
+    },
+    {
+      "name": "Discount Group Code",
+      "type": "REAL"
+    },
+    {
+      "name": "Discount Group",
+      "type": "REAL"
+    },
+    {
+      "name": "Business Posting Code",
+      "type": "REAL"
+    },
+    {
+      "name": "Business Posting Desc",
+      "type": "REAL"
+    },
+    {
+      "name": "Customer Posting Desc",
+      "type": "REAL"
+    },
+    {
+      "name": "Credit Status",
+      "type": "REAL"
+    },
+    {
+      "name": "Credit Limit Amount",
+      "type": "REAL"
+    },
+    {
+      "name": "Attribute 1 Code",
+      "type": "REAL"
+    },
+    {
+      "name": "Attribute 1 Name",
+      "type": "REAL"
+    },
+    {
+      "name": "Attribute 2 Code",
+      "type": "REAL"
+    },
+    {
+      "name": "Attribute 2 Name",
+      "type": "REAL"
+    },
+    {
+      "name": "Attribute 3 Code",
+      "type": "REAL"
+    },
+    {
+      "name": "Attribute 3 Name",
+      "type": "REAL"
+    },
+    {
+      "name": "Attribute 4 Code",
+      "type": "REAL"
+    },
+    {
+      "name": "Attribute 4 Name",
+      "type": "REAL"
+    },
+    {
+      "name": "Attribute 5 Code",
+      "type": "REAL"
+    },
+    {
+      "name": "Attribute 5 Name",
+      "type": "REAL"
+    },
+    {
+      "name": "Loyalty Status",
+      "type": "TEXT"
+    },
+    {
+      "name": "Year Acquired",
+      "type": "REAL"
+    },
+    {
+      "name": "High Volume Customer Count",
+      "type": "INTEGER"
+    },
+    {
+      "name": "Recency Band",
+      "type": "REAL"
+    },
+    {
+      "name": "Recency Band Sort",
+      "type": "REAL"
+    },
+    {
+      "name": "Frequency Band",
+      "type": "REAL"
+    },
+    {
+      "name": "Frequency Band Sort",
+      "type": "REAL"
+    },
+    {
+      "name": "Monetary Band",
+      "type": "TEXT"
+    },
+    {
+      "name": "Monetary Band Sort",
+      "type": "INTEGER"
+    },
+    {
+      "name": "Relationship Length Band",
+      "type": "TEXT"
+    },
+    {
+      "name": "Relationship Length Band Sort",
+      "type": "INTEGER"
+    },
+    {
+      "name": "Sales Activity Flag",
+      "type": "INTEGER"
+    },
+    {
+      "name": "Deleted Flag",
+      "type": "INTEGER"
+    },
+    {
+      "name": "Customer Loyalty Rule Key",
+      "type": "REAL"
+    },
+    {
+      "name": "Source Log Key",
+      "type": "INTEGER"
+    }
+  ],
+  "dbo_F_GL_Forecast": [
+    {
+      "name": "GL Forecast Key",
+      "type": "INTEGER"
+    },
+    {
+      "name": "Company Code",
+      "type": "TEXT"
+    },
+    {
+      "name": "Dataset",
+      "type": "TEXT"
+    },
+    {
+      "name": "Year",
+      "type": "INTEGER"
+    },
+    {
+      "name": "Record Type",
+      "type": "INTEGER"
+    },
+    {
+      "name": "GL Forecast Id",
+      "type": "INTEGER"
+    },
+    {
+      "name": "Business Unit Key",
+      "type": "INTEGER"
+    },
+    {
+      "name": "Company Key",
+      "type": "INTEGER"
+    },
+    {
+      "name": "Cost Center Key",
+      "type": "INTEGER"
+    },
+    {
+      "name": "Currency Key",
+      "type": "INTEGER"
+    },
+    {
+      "name": "Date Key",
+      "type": "INTEGER"
+    },
+    {
+      "name": "Department Key",
+      "type": "INTEGER"
+    },
+    {
+      "name": "Dimension 01 Key",
+      "type": "INTEGER"
+    },
+    {
+      "name": "Dimension 02 Key",
+      "type": "INTEGER"
+    },
+    {
+      "name": "Dimension 03 Key",
+      "type": "INTEGER"
+    },
+    {
+      "name": "Dimension 04 Key",
+      "type": "INTEGER"
+    },
+    {
+      "name": "Dimension 05 Key",
+      "type": "INTEGER"
+    },
+    {
+      "name": "Dimension 06 Key",
+      "type": "INTEGER"
+    },
+    {
+      "name": "Dimension 07 Key",
+      "type": "INTEGER"
+    },
+    {
+      "name": "Dimension 08 Key",
+      "type": "INTEGER"
+    },
+    {
+      "name": "Dimension 09 Key",
+      "type": "INTEGER"
+    },
+    {
+      "name": "Dimension 10 Key",
+      "type": "INTEGER"
+    },
+    {
+      "name": "Division Key",
+      "type": "INTEGER"
+    },
+    {
+      "name": "Facility Key",
+      "type": "INTEGER"
+    },
+    {
+      "name": "Financial Dimension Key",
+      "type": "INTEGER"
+    },
+    {
+      "name": "Financial Dimension Code",
+      "type": "TEXT"
+    },
+    {
+      "name": "FS Group Number",
+      "type": "INTEGER"
+    },
+    {
+      "name": "FS Line Number",
+      "type": "INTEGER"
+    },
+    {
+      "name": "GL Account Key",
+      "type": "INTEGER"
+    },
+    {
+      "name": "Item Key",
+      "type": "INTEGER"
+    },
+    {
+      "name": "Item Category Hrchy Key",
+      "type": "INTEGER"
+    },
+    {
+      "name": "Sales Organization Key",
+      "type": "INTEGER"
+    },
+    {
+      "name": "GL Account Number",
+      "type": "REAL"
+    },
+    {
+      "name": "Forecast Date",
+      "type": "TEXT"
+    },
+    {
+      "name": "Forecast Amount",
+      "type": "REAL"
+    },
+    {
+      "name": "Report Amount",
+      "type": "REAL"
+    },
+    {
+      "name": "Sign Flip Flag",
+      "type": "INTEGER"
+    },
+    {
+      "name": "Expense Flag",
+      "type": "INTEGER"
+    },
+    {
+      "name": "Deleted Flag",
+      "type": "INTEGER"
+    },
+    {
+      "name": "Source Log Key",
+      "type": "INTEGER"
+    }
+  ],
+  "table_mapping": [
+    {
+      "name": "original_name",
+      "type": "TEXT"
+    },
+    {
+      "name": "table_name",
+      "type": "TEXT"
+    }
+  ]
+}

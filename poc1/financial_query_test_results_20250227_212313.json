@@ -1,0 +1,163 @@
+{
+  "success_rates": {
+    "cash_flow": {
+      "success_count": 0,
+      "total_count": 4,
+      "success_rate": 0.0
+    },
+    "ar_aging": {
+      "success_count": 0,
+      "total_count": 4,
+      "success_rate": 0.0
+    },
+    "revenue_forecast": {
+      "success_count": 0,
+      "total_count": 4,
+      "success_rate": 0.0
+    },
+    "profitability": {
+      "success_count": 0,
+      "total_count": 4,
+      "success_rate": 0.0
+    },
+    "customer_analysis": {
+      "success_count": 0,
+      "total_count": 4,
+      "success_rate": 0.0
+    },
+    "custom_sql": {
+      "success_count": 0,
+      "total_count": 2,
+      "success_rate": 0.0
+    },
+    "overall": {
+      "success_count": 0,
+      "total_count": 22,
+      "success_rate": 0.0
+    }
+  },
+  "detailed_results": {
+    "cash_flow": [
+      {
+        "query": "Analyze our cash flow trends over the past year",
+        "success": false,
+        "error": "No tool calls generated"
+      },
+      {
+        "query": "Are there any unusual patterns or anomalies in our recent cash flow?",
+        "success": false,
+        "error": "No tool calls generated"
+      },
+      {
+        "query": "What was our net cash position at the end of last quarter?",
+        "success": false,
+        "error": "No tool calls generated"
+      },
+      {
+        "query": "Show me the daily cash flow volatility",
+        "success": false,
+        "error": "No tool calls generated"
+      }
+    ],
+    "ar_aging": [
+      {
+        "query": "What is our current accounts receivable aging?",
+        "success": false,
+        "error": "No tool calls generated"
+      },
+      {
+        "query": "How much is currently overdue beyond 90 days?",
+        "success": false,
+        "error": "No tool calls generated"
+      },
+      {
+        "query": "What is our Days Sales Outstanding (DSO)?",
+        "success": false,
+        "error": "No tool calls generated"
+      },
+      {
+        "query": "Which customer accounts are at high risk based on payment patterns?",
+        "success": false,
+        "error": "No tool calls generated"
+      }
+    ],
+    "revenue_forecast": [
+      {
+        "query": "Forecast our revenue for the next 30 days",
+        "success": false,
+        "error": "No tool calls generated"
+      },
+      {
+        "query": "What factors are most important in predicting our revenue?",
+        "success": false,
+        "error": "No tool calls generated"
+      },
+      {
+        "query": "How accurate are our revenue forecasts historically?",
+        "success": false,
+        "error": "No tool calls generated"
+      },
+      {
+        "query": "Compare our forecast to actual performance last quarter",
+        "success": false,
+        "error": "No tool calls generated"
+      }
+    ],
+    "profitability": [
+      {
+        "query": "What is our overall profit margin?",
+        "success": false,
+        "error": "No tool calls generated"
+      },
+      {
+        "query": "Which business units are most profitable?",
+        "success": false,
+        "error": "No tool calls generated"
+      },
+      {
+        "query": "Analyze profitability by company code",
+        "success": false,
+        "error": "No tool calls generated"
+      },
+      {
+        "query": "How has our profitability trended over time?",
+        "success": false,
+        "error": "No tool calls generated"
+      }
+    ],
+    "customer_analysis": [
+      {
+        "query": "Who are our top 10 customers by revenue?",
+        "success": false,
+        "error": "No tool calls generated"
+      },
+      {
+        "query": "Show me customers with the highest outstanding balances",
+        "success": false,
+        "error": "No tool calls generated"
+      },
+      {
+        "query": "Which customers have the worst payment behavior?",
+        "success": false,
+        "error": "No tool calls generated"
+      },
+      {
+        "query": "What is the total revenue from our top 20% of customers?",
+        "success": false,
+        "error": "No tool calls generated"
+      }
+    ],
+    "custom_sql": [
+      {
+        "query": "Run a query to show transaction amounts by month",
+        "success": false,
+        "error": "No tool calls generated"
+      },
+      {
+        "query": "Query for transactions over $10,000 in the last quarter",
+        "success": false,
+        "error": "No tool calls generated"
+      }
+    ]
+  }
+}

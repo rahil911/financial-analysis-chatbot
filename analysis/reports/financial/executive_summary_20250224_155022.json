@@ -1,0 +1,18 @@
+{
+    "cash_flow_health": {
+        "net_position": -338243000.55999994,
+        "daily_volatility": 5962096.643907259,
+        "anomaly_count": 19
+    },
+    "ar_health": {
+        "dso": 14.947192741995096,
+        "high_risk_customers": 1846
+    },
+    "forecast_accuracy": {
+        "mape": 130832.5055008495,
+        "rmse": 5679279.769748673
+    },
+    "profitability": {
+        "overall_profit_margin": -0.22996857045797245
+    }
+}

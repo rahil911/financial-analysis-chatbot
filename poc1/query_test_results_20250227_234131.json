@@ -1,0 +1,173 @@
+{
+  "total_tests": 22,
+  "passed": 0,
+  "failed": 22,
+  "errors": [
+    {
+      "query": "Analyze our cash flow trends over the past year",
+      "category": "Cash Flow Analysis",
+      "reason": "No results returned"
+    },
+    {
+      "query": "Are there any unusual patterns or anomalies in our recent cash flow?",
+      "category": "Cash Flow Analysis",
+      "reason": "No results returned"
+    },
+    {
+      "query": "What was our net cash position at the end of last quarter?",
+      "category": "Cash Flow Analysis",
+      "reason": "No results returned"
+    },
+    {
+      "query": "Show me the daily cash flow volatility",
+      "category": "Cash Flow Analysis",
+      "reason": "No results returned"
+    },
+    {
+      "query": "What is our current accounts receivable aging?",
+      "category": "Accounts Receivable",
+      "reason": "No results returned"
+    },
+    {
+      "query": "How much is currently overdue beyond 90 days?",
+      "category": "Accounts Receivable",
+      "reason": "No results returned"
+    },
+    {
+      "query": "What is our Days Sales Outstanding (DSO)?",
+      "category": "Accounts Receivable",
+      "reason": "No results returned"
+    },
+    {
+      "query": "Which customer accounts are at high risk based on payment patterns?",
+      "category": "Accounts Receivable",
+      "reason": "No results returned"
+    },
+    {
+      "query": "Forecast our revenue for the next 30 days",
+      "category": "Revenue Forecasting",
+      "reason": "No results returned"
+    },
+    {
+      "query": "What factors are most important in predicting our revenue?",
+      "category": "Revenue Forecasting",
+      "reason": "No results returned"
+    },
+    {
+      "query": "How accurate are our revenue forecasts historically?",
+      "category": "Revenue Forecasting",
+      "reason": "No results returned"
+    },
+    {
+      "query": "Compare our forecast to actual performance last quarter",
+      "category": "Revenue Forecasting",
+      "reason": "No results returned"
+    },
+    {
+      "query": "What is our overall profit margin?",
+      "category": "Profitability Analysis",
+      "reason": "No results returned"
+    },
+    {
+      "query": "Which business units are most profitable?",
+      "category": "Profitability Analysis",
+      "reason": "No results returned"
+    },
+    {
+      "query": "Analyze profitability by company code",
+      "category": "Profitability Analysis",
+      "reason": "No results returned"
+    },
+    {
+      "query": "How has our profitability trended over time?",
+      "category": "Profitability Analysis",
+      "reason": "No results returned"
+    },
+    {
+      "query": "Who are our top 10 customers by revenue?",
+      "category": "Customer Analysis",
+      "reason": "No results returned"
+    },
+    {
+      "query": "Show me customers with the highest outstanding balances",
+      "category": "Customer Analysis",
+      "reason": "No results returned"
+    },
+    {
+      "query": "Which customers have the worst payment behavior?",
+      "category": "Customer Analysis",
+      "reason": "No results returned"
+    },
+    {
+      "query": "What is the total revenue from our top 20% of customers?",
+      "category": "Customer Analysis",
+      "reason": "No results returned"
+    },
+    {
+      "query": "Run a query to show transaction amounts by month",
+      "category": "Custom SQL Queries",
+      "reason": "No results returned"
+    },
+    {
+      "query": "Query for transactions over $10,000 in the last quarter",
+      "category": "Custom SQL Queries",
+      "reason": "No results returned"
+    }
+  ],
+  "categories": {
+    "Cash Flow Analysis": {
+      "total": 4,
+      "passed": 0,
+      "failed": 4
+    },
+    "Accounts Receivable": {
+      "total": 4,
+      "passed": 0,
+      "failed": 4
+    },
+    "Revenue Forecasting": {
+      "total": 4,
+      "passed": 0,
+      "failed": 4
+    },
+    "Profitability Analysis": {
+      "total": 4,
+      "passed": 0,
+      "failed": 4
+    },
+    "Customer Analysis": {
+      "total": 4,
+      "passed": 0,
+      "failed": 4
+    },
+    "Custom SQL Queries": {
+      "total": 2,
+      "passed": 0,
+      "failed": 2
+    }
+  },
+  "timing": {
+    "Analyze our cash flow trends over the past year": 4.291534423828125e-05,
+    "Are there any unusual patterns or anomalies in our recent cash flow?": 1.71661376953125e-05,
+    "What was our net cash position at the end of last quarter?": 1.5974044799804688e-05,
+    "Show me the daily cash flow volatility": 1.5020370483398438e-05,
+    "What is our current accounts receivable aging?": 1.4781951904296875e-05,
+    "How much is currently overdue beyond 90 days?": 1.4066696166992188e-05,
+    "What is our Days Sales Outstanding (DSO)?": 1.3828277587890625e-05,
+    "Which customer accounts are at high risk based on payment patterns?": 1.4781951904296875e-05,
+    "Forecast our revenue for the next 30 days": 2.09808349609375e-05,
+    "What factors are most important in predicting our revenue?": 1.4066696166992188e-05,
+    "How accurate are our revenue forecasts historically?": 1.5020370483398438e-05,
+    "Compare our forecast to actual performance last quarter": 1.4066696166992188e-05,
+    "What is our overall profit margin?": 1.4066696166992188e-05,
+    "Which business units are most profitable?": 1.2874603271484375e-05,
+    "Analyze profitability by company code": 1.2874603271484375e-05,
+    "How has our profitability trended over time?": 1.3113021850585938e-05,
+    "Who are our top 10 customers by revenue?": 1.52587890625e-05,
+    "Show me customers with the highest outstanding balances": 1.3113021850585938e-05,
+    "Which customers have the worst payment behavior?": 1.7881393432617188e-05,
+    "What is the total revenue from our top 20% of customers?": 1.4066696166992188e-05,
+    "Run a query to show transaction amounts by month": 1.4066696166992188e-05,
+    "Query for transactions over $10,000 in the last quarter": 1.4066696166992188e-05
+  }
+}

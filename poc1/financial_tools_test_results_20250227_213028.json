@@ -1,0 +1,31 @@
+{
+  "success_rate": 83.33333333333334,
+  "successful_tests": 5,
+  "total_tests": 6,
+  "results": {
+    "cash_flow_analysis": {
+      "success": true,
+      "message": "Cash flow analysis successful"
+    },
+    "ar_aging_analysis": {
+      "success": true,
+      "message": "AR aging analysis successful"
+    },
+    "revenue_forecast": {
+      "success": true,
+      "message": "Revenue forecast successful"
+    },
+    "profitability_analysis": {
+      "success": true,
+      "message": "Profitability analysis successful"
+    },
+    "customer_analysis": {
+      "success": false,
+      "message": "Customer analysis failed: Execution failed on sql '\n            SELECT \n                h.\"Invoice Amount\", \n                h.\"Balance Due Amount\", \n                h.\"Invoice Number\", \n                h.\"Customer Key\", \n                c.\"Customer Name\"\n            FROM dbo_F_AR_Header h\n            LEFT JOIN dbo_D_Customer c ON h.\"Customer Key\" = c.\"Customer Key\"\n            ': no such column: h.Invoice Number"
+    },
+    "query_database": {
+      "success": true,
+      "message": "Custom SQL query successful"
+    }
+  }
+}

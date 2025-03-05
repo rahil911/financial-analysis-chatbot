@@ -1,0 +1,67 @@
+{
+  "timestamp": "2025-02-28T00:00:24.881332",
+  "total_tests": 6,
+  "passed": 0,
+  "failed": 6,
+  "test_results": {
+    "cash_flow_analysis": {
+      "name": "cash_flow_analysis",
+      "passed": false,
+      "details": {
+        "default_result_valid": false,
+        "date_range_result_valid": false
+      },
+      "error": null
+    },
+    "ar_aging_analysis": {
+      "name": "ar_aging_analysis",
+      "passed": false,
+      "details": {
+        "result_type": "<class 'dict'>",
+        "has_dso": false,
+        "has_total_overdue": false,
+        "has_visualization": false
+      },
+      "error": null
+    },
+    "revenue_forecast": {
+      "name": "revenue_forecast",
+      "passed": false,
+      "details": {
+        "forecast_30_valid": false,
+        "forecast_60_valid": false,
+        "has_accuracy_metrics": false,
+        "has_visualization": false
+      },
+      "error": null
+    },
+    "profitability_analysis": {
+      "name": "profitability_analysis",
+      "passed": false,
+      "details": {
+        "business_unit_valid": false,
+        "company_code_valid": false,
+        "has_by_dimension": false
+      },
+      "error": null
+    },
+    "customer_analysis": {
+      "name": "customer_analysis",
+      "passed": false,
+      "details": {
+        "top_10_valid": false,
+        "top_20_valid": false,
+        "has_revenue_data": false,
+        "has_visualization": false
+      },
+      "error": null
+    },
+    "custom_sql_query": {
+      "name": "custom_sql_query",
+      "passed": false,
+      "details": {},
+      "error": "'FinancialTools' object has no attribute '_execute_query'"
+    }
+  },
+  "pass_rate": "0.00%"
+}

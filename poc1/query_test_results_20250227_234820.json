@@ -1,0 +1,118 @@
+{
+  "total_tests": 22,
+  "passed": 0,
+  "failed": 22,
+  "errors": [
+    {
+      "query": "Analyze our cash flow trends over the past year",
+      "category": "Cash Flow Analysis",
+      "reason": "No tool calls detected"
+    },
+    {
+      "query": "Are there any unusual patterns or anomalies in our recent cash flow?",
+      "category": "Cash Flow Analysis",
+      "reason": "No tool calls detected"
+    },
+    {
+      "query": "What was our net cash position at the end of last quarter?",
+      "category": "Cash Flow Analysis",
+      "reason": "No tool calls detected"
+    },
+    {
+      "query": "Show me the daily cash flow volatility",
+      "category": "Cash Flow Analysis",
+      "reason": "No tool calls detected"
+    },
+    {
+      "query": "What is our current accounts receivable aging?",
+      "category": "Accounts Receivable",
+      "reason": "No tool calls detected"
+    },
+    {
+      "query": "How much is currently overdue beyond 90 days?",
+      "category": "Accounts Receivable",
+      "reason": "No tool calls detected"
+    },
+    {
+      "query": "What is our Days Sales Outstanding (DSO)?",
+      "category": "Accounts Receivable",
+      "reason": "No tool calls detected"
+    },
+    {
+      "query": "Which customer accounts are at high risk based on payment patterns?",
+      "category": "Accounts Receivable",
+      "reason": "No tool calls detected"
+    },
+    {
+      "query": "Forecast our revenue for the next 30 days",
+      "category": "Revenue Forecasting",
+      "reason": "No tool calls detected"
+    },
+    {
+      "query": "What factors are most important in predicting our revenue?",
+      "category": "Revenue Forecasting",
+      "reason": "No tool calls detected"
+    },
+    {
+      "query": "How accurate are our revenue forecasts historically?",
+      "category": "Revenue Forecasting",
+      "reason": "No tool calls detected"
+    },
+    {
+      "query": "Compare our forecast to actual performance last quarter",
+      "category": "Revenue Forecasting",
+      "reason": "No tool calls detected"
+    },
+    {
+      "query": "What is our overall profit margin?",
+      "category": "Profitability Analysis",
+      "reason": "No tool calls detected"
+    },
+    {
+      "query": "Which business units are most profitable?",
+      "category": "Profitability Analysis",
+      "reason": "No tool calls detected"
+    },
+    {
+      "query": "Analyze profitability by company code",
+      "category": "Profitability Analysis",
+      "reason": "No tool calls detected"
+    },
+    {
+      "query": "How has our profitability trended over time?",
+      "category": "Profitability Analysis",
+      "reason": "No tool calls detected"
+    },
+    {
+      "query": "Who are our top 10 customers by revenue?",
+      "category": "Customer Analysis",
+      "reason": "No tool calls detected"
+    },
+    {
+      "query": "Show me customers with the highest outstanding balances",
+      "category": "Customer Analysis",
+      "reason": "No tool calls detected"
+    },
+    {
+      "query": "Which customers have the worst payment behavior?",
+      "category": "Customer Analysis",
+      "reason": "No tool calls detected"
+    },
+    {
+      "query": "What is the total revenue from our top 20% of customers?",
+      "category": "Customer Analysis",
+      "reason": "No tool calls detected"
+    },
+    {
+      "query": "Run a query to show transaction amounts by month",
+      "category": "Custom SQL Queries",
+      "reason": "No tool calls detected"
+    },
+    {
+      "query": "Query for transactions over $10,000 in the last quarter",
+      "category": "Custom SQL Queries",
+      "reason": "No tool calls detected"
+    }
+  ],
+  "success_rate": 0.0
+}

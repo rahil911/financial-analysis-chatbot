@@ -1,0 +1,31 @@
+{
+  "success_rate": 100.0,
+  "successful_tests": 6,
+  "total_tests": 6,
+  "results": {
+    "cash_flow_analysis": {
+      "success": true,
+      "message": "Cash flow analysis successful"
+    },
+    "ar_aging_analysis": {
+      "success": true,
+      "message": "AR aging analysis successful"
+    },
+    "revenue_forecast": {
+      "success": true,
+      "message": "Revenue forecast successful"
+    },
+    "profitability_analysis": {
+      "success": true,
+      "message": "Profitability analysis successful"
+    },
+    "customer_analysis": {
+      "success": true,
+      "message": "Customer analysis successful"
+    },
+    "query_database": {
+      "success": true,
+      "message": "Custom SQL query successful"
+    }
+  }
+}
