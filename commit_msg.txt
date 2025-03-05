@@ -1,0 +1,1 @@
+[Cursor] Add Vercel deployment support with Google Drive database setup
